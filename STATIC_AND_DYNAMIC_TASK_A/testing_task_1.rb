@@ -39,7 +39,7 @@ def func1 val
   else
     puts "looper failed"
     failures = failures + 1
-   
+  #  need an "end" here
     
   if func1(3) == false
     puts "func1(3) passed"
@@ -62,7 +62,4 @@ def func1 val
     puts "Test Failed"
   else
     puts "Test Passed"
-  end
-  # need one more end here.
-  
-  
+  end  
