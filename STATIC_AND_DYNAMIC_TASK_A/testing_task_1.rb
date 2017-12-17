@@ -33,6 +33,7 @@ def func1 val
    
   failures = 0 
    
+  # looper is a range of "1..10" so this should read "if looper == 10"
   if looper == 10 
     puts "looper passed"
   else
@@ -56,7 +57,7 @@ def func1 val
     failrues = failures + 1
   end
   
-    
+  # should be "if failures > 0" in order to check if there have been any failures 
   if failures 
     puts "Test Failed"
   else
